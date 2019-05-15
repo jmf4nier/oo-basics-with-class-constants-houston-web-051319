@@ -1,3 +1,4 @@
+require 'pry'
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
@@ -17,4 +18,5 @@ class Shoe
 
 end
 runner = Shoe.new("Uggs")
-puts runner.BRANDS
+#puts runner.
+binding.pry
