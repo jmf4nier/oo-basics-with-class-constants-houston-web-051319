@@ -17,4 +17,4 @@ class Shoe
 
 end
 runner = Shoe.new("Uggs")
-puts runner.brand
+puts runner.BRANDS
