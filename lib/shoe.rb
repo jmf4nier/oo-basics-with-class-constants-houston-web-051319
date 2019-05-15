@@ -22,6 +22,6 @@ class Shoe
 
 end
 runner = Shoe.new("Uggs")
-puts runner.brands
+#puts runner.brands
 #puts runner.
 #binding.pry
