@@ -8,7 +8,7 @@ class Shoe
     BRANDS << brand
   end
   def brands
-    BRANDS = brands
+    BRANDS 
   end
   
   def brand=(brand)
@@ -22,5 +22,6 @@ class Shoe
 
 end
 runner = Shoe.new("Uggs")
+puts runner.brand
 #puts runner.
 #binding.pry
